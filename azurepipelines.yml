@@ -22,7 +22,7 @@ steps:
   inputs:
     containerRegistry: |
        $(dockerHub)
-     repository: $(imageName)
+    repository: $(imageName)
     command: push
     tags: |
       test1
