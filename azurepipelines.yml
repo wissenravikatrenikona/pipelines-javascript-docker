@@ -8,6 +8,9 @@ pool:
 
 variables:
   imageName: 'pipelines-javascript-docker'
+  dockerHub: 'd59b2975-0ffd-4e5a-a575-348bcdfbcb43'
+  imageRepository: 'wissenravikatrenikonapipelinesjavascriptdocker'
+  containerRegistry: 'akshandsonlab002.azurecr.io'
   DOCKER_BUILDKIT: 1
     
 steps:
